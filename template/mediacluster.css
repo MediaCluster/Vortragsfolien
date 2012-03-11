@@ -1,0 +1,21 @@
+/*
+  MediaCluster HTML5 slides template
+
+  Authors: Marco Ziesing (code and design)
+
+  URL: http://jf01.mediacluster.de/slides/template/
+*/
+
+
+/* Framework */
+
+.slides.template-mediacluster > article:not(.nobackground):not(.biglogo) {
+  background: url(images/mediacluster-logo-small.png) 710px 625px no-repeat;  
+} 
+
+/* Slide styles */
+
+.slides.template-mediacluster article.biglogo {
+  background: white url(images/mediacluster-logo.png) 50% 50% no-repeat;
+}
+

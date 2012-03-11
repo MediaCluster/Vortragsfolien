@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Mobilegräte verfolgen mit Prey</title>
+
+    <meta charset='utf-8'>
+    <script src='../template/slides.js'></script>
+  </head>
+
+  <body style='display: none'>
+    <link rel="stylesheet" type="text/css" href="../template/mediacluster.css">
+
+    <section class='slides layout-regular template-default template-mediacluster'>
+      
+      <article class='biglogo'>
+      </article>
+
+      <article>
+        <h1>
+          Mobilgeräte verfolgen
+          <br>
+          mit Prey (Entwurf)
+        </h1>
+        <p>
+          Marco Ziesing
+          <br>
+          1. März 2012
+        </p>
+      </article>
+      
+      <article>
+        <h3>
+          Zahlen und Fakten
+        </h3>
+        <ul>
+          <li>Statistiken zufolge "verschwindet" jede Minute ein Notebook.</li>
+          <li>alleine an US-Flughäfen wöchentlich ca. 12 000 Notebooks</li>
+          <li>Handy-Diebstahl macht 85% aller Diebstahl-Meldungen auf Protexxo.de aus</li>
+          <li>2 / 3 davon sind Smartphones</li>
+        </ul>
+        <ul>
+          <li>IMEI und MAC-Adresse sind nicht hilfreich da veränderbar</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          Mögliche Schäden durch verschwundene Geräte
+        </h3>
+
+        <ul>
+          <li>je nach Art des Verschwindens zahlt die Versicherung<br>... oder auch nicht</li>
+          <li>Firmeninterna und private Daten fallen in fremde Hände</li>
+          <li>gespeicherte Zugangsdaten können ausgelesen werden</li>
+          <li>Apps mit hinterlegten Zugangsdaten können missbraucht werden</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          Was ist Prey?
+        </h3>
+        <ul>
+          <li>Open Source Computer Tracking Software</li>
+          <li>verfügbar für Android, Linux, MacOS X und Windows</li>
+          <li>iOS-Version ist derzeit noch im "Review"</li>
+          <li>einzige „Eine für Alle“-Lösung am Markt</li>
+          <li>bis zu 3 Geräte pro Nutzer kostenlos</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          Was kann Prey?
+        </h3>
+        <ul>
+          <li>Aktivierung per Push, SMS oder Webseite</li>
+          <li>Geolokalisierung über GSP oder WLAN-Triangulation</li>
+          <li>Sperren des Geräts bis zur Eingabe des Passworts</li>
+          <li>E-Mails verstecken, Cookies und gespeicherte<br>Passwörter löschen</li>
+          <li>Lautstarker Alarm</li>
+          <li>Nachricht auf dem Display anzeigen</li>
+          <li>SIM-Lock, automatische Aktivierung bei Tausch</li>
+          <li>Berichte senden (IP-Adressen, Position, Kamerabild, Screenshot, Protokolle der geänderten Dateien und laufenden Prozesse)</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          Beispielbericht: Position
+        </h3>
+        <p>
+          <img class='centered' src='images/location.png'>
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          Beispielbericht: Kamerabild
+        </h3>
+        <p>
+          <img class='centered' src='images/picture.png'>
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          Beispielbericht: Screenshot
+        </h3>
+        <p>
+          <img class='centered' src='images/screenshot.png'>
+        </p>
+        <div class="build" style="margin: 30px 0 0 0;">
+          <p>
+            Sehr geschickt, wenn die Person z.B. auf Facebook ist. ;-)
+          </p>
+        </div>
+      </article>
+
+      <article>
+        <h3>
+          Beispielbericht: Screenshot
+        </h3>
+        <p>
+          <img class='centered' style='height: 550px;' src='images/logs.png'>
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          Präventionstipps
+        </h3>
+        <ul style="margin: 20px 0 0 0.75em">
+          <li>Laptop & Smartphone möglichst nicht aus den Augen lassen</li>
+          <li>Keine auffällige, als solche erkennbare, Laptop-Tasche</li>
+          <li>empfindliche Daten nicht oder nur verschlüsselt speichern</li>
+          <li>Seriennummern notieren, um sie nach einem Diebstahl der Polizei mitteilen zu können</li>
+        </ul>
+        <h3 style='margin: 30px 0 0 0;'>
+          Links
+        </h3>
+        <ul style="margin: 20px 0 0 0.75em">
+          <li><a href="http://preyproject.com/">Projektseite</a></li>
+          <li><a href="http://preyproject.com/blog/cat/recoveries">Erfolgsberichte</a></li>
+        </ul>
+        <ul style="margin: 20px 0 0 0.75em">
+          <li><a style="font-size: 70%;" href="http://www.youtube.com/watch?v=U4oB28ksiIo">Pwned by the owner:<br>What happens when you steal a hackers computer</a></li>
+        </ul>
+
+      </article>
+
+    </section>
+
+    <!-- Piwik --> 
+    <script type="text/javascript">
+      var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.mediacluster.de/" : "http://stats.mediacluster.de/");
+      document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+      </script><script type="text/javascript">
+      try {
+        var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 67);
+        piwikTracker.setDocumentTitle(document.title);
+        piwikTracker.trackPageView();
+        piwikTracker.enableLinkTracking();
+      } catch( err ) {}
+    </script><noscript><p><img src="http://stats.mediacluster.de/piwik.php?idsite=67" style="border:0" alt="" /></p></noscript>
+    <!-- End Piwik Tracking Code -->
+  </body>
+</html>
