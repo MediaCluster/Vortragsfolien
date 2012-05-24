@@ -404,6 +404,8 @@ li::before {
   position: absolute;
 }
 
+li li { padding: 0 0 0 1em; }
+
 pre {
   font-family: 'Droid Sans Mono', 'Courier New', monospace;
 
